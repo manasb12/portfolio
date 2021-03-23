@@ -1,0 +1,37 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.homeContainer {
+  height: 94vh;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.myName {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "arial";
+  font-size: 18px;
+}
+.myName span {
+  font-size: 1.5em;
+  font-family: "arial";
+  color: whitesmoke;
+  font-weight: bold;
+}
+.myName p {
+  font-size: 16px;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/profile.jpg");
+  background-position: center center;
+  background-size: cover;
+  top: 25%;
+  margin-left: 60px;
+}

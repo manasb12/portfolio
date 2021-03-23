@@ -1,0 +1,21 @@
+.contacts {
+    margin-top: 40px;
+    
+}
+.contacts ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.contacts ul li {
+    float: left;
+}
+.contacts .icon {
+    margin-left: 60px;
+    color: #999;
+}
+.contacts .icon:hover {
+    color: #555;
+}
