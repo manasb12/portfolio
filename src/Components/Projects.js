@@ -37,7 +37,9 @@ function Projects() {
                 <ProjectCard
                     src={mortgageCalculatorImage}
                     name="Mortgage Calculator"
-                    description="An online grocery shopping website made from scratch. Displays food items in categories and allows to search for a particular item. Designed a clean and user friendly interface"
+                    description="A Mortgage Calculator app which calculates 
+                    monthly mortgage payments using principal, amoritization and interest amounts.
+                    Text to Speech functionality reads out the leftover payments after each year"
                     tech="Java, Android Studio"
                 />
             </div>
