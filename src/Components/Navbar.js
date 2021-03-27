@@ -8,9 +8,6 @@ function Navbar() {
             <div className="navbar-container">
                 <ul>
                     <li>
-                        <a href="#" className="nav-links">Home</a>
-                    </li>
-                    <li>
                         <a href="#about" className="nav-links">About</a>
                     </li>               
                     <li>
