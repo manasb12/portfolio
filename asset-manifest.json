@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.21fc92bb.chunk.css",
-    "main.js": "/portfolio/static/js/main.a84e2953.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a84e2953.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bdf82a0b.chunk.css",
+    "main.js": "/portfolio/static/js/main.6002d279.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6002d279.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
-    "static/js/2.1b4bba1b.chunk.js": "/portfolio/static/js/2.1b4bba1b.chunk.js",
-    "static/js/2.1b4bba1b.chunk.js.map": "/portfolio/static/js/2.1b4bba1b.chunk.js.map",
+    "static/js/2.4089f1f4.chunk.js": "/portfolio/static/js/2.4089f1f4.chunk.js",
+    "static/js/2.4089f1f4.chunk.js.map": "/portfolio/static/js/2.4089f1f4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.21fc92bb.chunk.css.map": "/portfolio/static/css/main.21fc92bb.chunk.css.map",
-    "static/js/2.1b4bba1b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1b4bba1b.chunk.js.LICENSE.txt",
+    "static/css/main.bdf82a0b.chunk.css.map": "/portfolio/static/css/main.bdf82a0b.chunk.css.map",
+    "static/js/2.4089f1f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4089f1f4.chunk.js.LICENSE.txt",
     "static/media/GroceryGo.d0a663e9.PNG": "/portfolio/static/media/GroceryGo.d0a663e9.PNG",
     "static/media/Manas_Bansal_Resume.81423191.pdf": "/portfolio/static/media/Manas_Bansal_Resume.81423191.pdf",
     "static/media/MortCalc.b5ef3ec4.jpg": "/portfolio/static/media/MortCalc.b5ef3ec4.jpg",
     "static/media/Home.css": "/portfolio/static/media/profile.22051972.jpg",
-    "static/media/spikeyAdventure1.f891a4af.PNG": "/portfolio/static/media/spikeyAdventure1.f891a4af.PNG",
-    "static/media/texteditor.f5e185cb.PNG": "/portfolio/static/media/texteditor.f5e185cb.PNG"
+    "static/media/spaceAttackImage.fbaaf6e4.PNG": "/portfolio/static/media/spaceAttackImage.fbaaf6e4.PNG",
+    "static/media/texteditor.1f727553.PNG": "/portfolio/static/media/texteditor.1f727553.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
-    "static/js/2.1b4bba1b.chunk.js",
-    "static/css/main.21fc92bb.chunk.css",
-    "static/js/main.a84e2953.chunk.js"
+    "static/js/2.4089f1f4.chunk.js",
+    "static/css/main.bdf82a0b.chunk.css",
+    "static/js/main.6002d279.chunk.js"
   ]
 }
