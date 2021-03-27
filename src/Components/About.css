@@ -11,6 +11,8 @@ html {
   width: 95%;
   margin-left: 2.5%;
   margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .home-desc {
   width: 600px;
@@ -22,7 +24,8 @@ html {
 .home-skills {
   width: 600px;
   height: 500px;
-  font-family: "arial";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #222;
   padding: 10px;
   flex: 50%;
@@ -31,25 +34,21 @@ html {
 }
 
 .section-header {
-  font-family: "arial";
-  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
   text-align: center;
-  color: #222;
+  color: #f44336;
 }
 
 .home-desc p {
   font-size: 18px;
-  color: #222;
+  color: #444;
   text-align: left;
   padding: 2px;
 }
 .home-desc span {
   color: #999;
-  font-weight: bold;
-}
-.resume-link {
-  text-decoration: none;
-  color: #f44336;
   font-weight: bold;
 }
 .resume-link:hover {
@@ -69,6 +68,7 @@ html {
   margin: 0px;
   margin-left: 20px;
   font-size: 18px;
+  color: #444;
 }
 .skills {
   height: 20px;

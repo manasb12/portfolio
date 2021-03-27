@@ -4,7 +4,7 @@ body {
 }
 .homeContainer {
   height: 94vh;
-  background-color: #202020;
+  background-color: #222;
   display: flex;
   justify-content: center;
   position: relative;
@@ -17,13 +17,10 @@ body {
   font-size: 18px;
 }
 .myName span {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: "arial";
   color: whitesmoke;
   font-weight: bold;
-}
-.myName p {
-  font-size: 16px;
 }
 .profile-img {
   border-radius: 50%;
@@ -33,5 +30,17 @@ body {
   background-position: center center;
   background-size: cover;
   top: 25%;
-  margin-left: 60px;
+  margin-left: 130px;
+  border: 1px solid #111;
+}
+.about-description {
+  width: 450px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+}
+.about-description span {
+  color: #999;
 }

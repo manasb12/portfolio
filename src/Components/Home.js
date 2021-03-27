@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import Contacts from './Contacts.js';
 
 function Home() {
     return (
@@ -10,10 +9,14 @@ function Home() {
                     <h1>
                         <span>M</span>ANAS <span>B</span>ANSAL
                     </h1>
-                    <p>Computer Science Student | Toronto, ON</p>
                 </div>
                 <div className="profile-img"></div>
-                <Contacts />
+                <div className="about-description">
+                    Hello! I am a third-year BSc Honours Computer Science Student 
+                    at York University. I love to code and learn new skills. I am interested 
+                    in <span>Full Stack Development</span> and <span>Mobile Development</span>
+                </div>
+
             </div>
         </div>
     )

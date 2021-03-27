@@ -1,54 +1,67 @@
 .main {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 95%;
-    margin-left: 2.5%;
+  width: 95%;
+  background-color: #fff;
+  margin-left: 2.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main #headerTitle {
+  color: #f44336;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 36px;
 }
 .experienceContainer {
-    padding: 20px;
-
+  padding: 20px;
+  margin-left: 40px;
 }
 .experienceContainer img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 20px;
-    border: 3px solid #f44336;
-    margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 20px;
+  border: 4px solid #f44336;
+  margin-top: 10px;
 }
 .experienceContainer h1 {
-    margin-left: 120px;
-    font-family: 'arial';
-    color: #222;
-    font-size: 22px;
+  margin-left: 120px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #222;
+  font-size: 22px;
 }
 .experienceContainer h3 {
-    margin-left: 120px;
-    font-family: 'arial';
-    font-size: 18px;
-    color: #666;
+  margin-left: 120px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #444;
+  font-style: italic;
 }
 .experienceContainer ul {
-    margin-left: 120px;
-    font-family: 'arial';
-    font-size: 16px;
-    color: #222;
-    padding: 2px;
+  margin-left: 120px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  padding: 2px;
+  list-style-type: circle;
 }
 #headerTitle {
-    margin-top: 50px;
-    margin-left: 20px;
-    font-family: 'arial';
-    color: #222;
-    text-align: center;
-    padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: "arial";
+  color: #222;
+  text-align: center;
+  padding-top: 50px;
 }
-hr {
-    width: 70%;
-    margin-left: 100px;
-    border-top: 1px solid lightgray;
+.main hr {
+  width: 70%;
+  margin-left: 100px;
+  height: 1px;
+  background-color: #999;
+  border: 1px solid #999;
 }
 
-.experienceContainer ul li{
-    padding: 3px;
+.experienceContainer ul li {
+  padding: 3px;
 }

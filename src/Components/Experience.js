@@ -4,7 +4,7 @@ import './JobComponent.css';
 function Experience() {
     return ( 
         <div id="experience" className="main">
-            <h1 id="headerTitle">E x p e r i e n c e</h1>
+            <h1 id="headerTitle">Experience</h1>
                 <div className="experienceContainer">
                     <SubComponent
                         src="https://pbs.twimg.com/profile_images/1258154808134922242/sUXk1gdX_400x400.jpg"
@@ -21,9 +21,9 @@ function Experience() {
                 <SubComponent
                     src="https://media-exp1.licdn.com/dms/image/C4E0BAQHt4ygkEQqRng/company-logo_200_200/0/1593551853945?e=1619049600&v=beta&t=G6qibBc88exIO104DLHECUUw8-6c7PvbhwjbQz5GhfY"
                     jobTitle="Smart Systems Intern"
-                    company="Cortellucci Vaughan Hospital [Mackenzie Health]"/>
+                    company="Cortellucci Vaughan Hospital"/>
                 <ul>
-                    <li>Working in the ICAT department at Canada's first Smart Hospital</li>
+                    <li>Currently working in the ICAT department at Canada's first Smart Hospital</li>
                     <li>Validated smart devices ensuring they are on, connected and displaying correct information</li>
                     <li>Performed extensive MRT tests and organized database spreadhseets</li>
                     <li>Continually collborated with the Application Integration team to validate views expected by clinicians.</li>
@@ -34,7 +34,7 @@ function Experience() {
                 <SubComponent
                     src="https://media.glassdoor.com/sqll/141035/york-university-squarelogo.png"
                     jobTitle="Peer Tutor"
-                    company="Lassonde School of Engineering [York University]"/>
+                    company="Lassonde School of Engineering"/>
                 <ul>
                     <li>Selected by course instructor to mentor other students due to
                     {<br></br>}excellent performance in 'Net Centric Introduction to Computing'
