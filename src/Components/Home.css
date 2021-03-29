@@ -9,12 +9,14 @@ body {
   justify-content: center;
   position: relative;
   width: 100%;
+  overflow: auto;
 }
 .myName {
   text-align: center;
   color: whitesmoke;
   font-family: "arial";
   font-size: 18px;
+  margin-top: 40px;
 }
 .myName span {
   font-size: 1.6em;
