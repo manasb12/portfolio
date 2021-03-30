@@ -8,9 +8,7 @@ function Home() {
         <div id="home" className="homeContainer">
             <div>
                 <div className="myName">
-                    <h1>
-                        <span>M</span>ANAS <span>B</span>ANSAL
-                    </h1>
+                    <h1>Manas Bansal</h1>
                 </div>
                 <div className="profile-img"></div>
                 <div className="about-description">

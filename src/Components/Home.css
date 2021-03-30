@@ -4,7 +4,7 @@ body {
 }
 .homeContainer {
   height: 94vh;
-  background-color: #222;
+  background-color: #1b262c;
   display: flex;
   justify-content: center;
   position: relative;
@@ -13,23 +13,18 @@ body {
 }
 .myName {
   text-align: center;
-  color: whitesmoke;
-  font-family: "arial";
-  font-size: 18px;
+  color: #3282b8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
   margin-top: 40px;
-}
-.myName span {
-  font-size: 1.6em;
-  font-family: "arial";
-  color: whitesmoke;
-  font-weight: bold;
 }
 .profile-img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  background-image: url("../img/profile.jpg");
-  background-position: center center;
+  background-image: url("../img/profile2.jpg");
+  background-position: 50% 35%;
   background-size: cover;
   top: 25%;
   margin-left: 100px;
