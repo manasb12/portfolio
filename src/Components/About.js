@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillBar from './SkillBar.js';
 import './About.css';
+import RenderTab from './RenderTab.js';
 
 function About() {
     return (
@@ -26,7 +27,7 @@ function About() {
                     <p>Currently I have an overall GPA of <span>3.0 / 4.0</span> in my degree</p>
                 </p>
             </div>
-            <div className="home-skills">
+            {/*<div className="home-skills">
                 <h1 className="section-header">Skills</h1>
                 <SkillBar skill="Java"/>
                 <SkillBar skill="HTML-CSS"/>
@@ -34,9 +35,10 @@ function About() {
                 <SkillBar skill="Python"/>
                 <SkillBar skill="React"/>
                 <SkillBar skill="C"/>
-            </div>
+    </div>*/}
         </div>
     )
 }
+
 
 export default About;

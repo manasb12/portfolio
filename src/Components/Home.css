@@ -1,44 +1,72 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-size: 1rem;
+  font-family: "Titillium Web",sans-serif;
 }
 .homeContainer {
-  height: 94vh;
-  background-color: #1b262c;
-  display: flex;
+  background-color: #423E47;
   justify-content: center;
-  position: relative;
   width: 100%;
-  overflow: auto;
+  min-height: 80vh;
+  display: flex;
 }
 .myName {
   text-align: center;
-  color: #3282b8;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 26px;
-  margin-top: 40px;
+  color: #f1f4f8;
+  font-family: inherit;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
-.profile-img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  background-image: url("../img/profile2.jpg");
-  background-position: 50% 35%;
-  background-size: cover;
-  top: 25%;
-  margin-left: 100px;
-  border: 1px solid #111;
-}
+
 .about-description {
-  width: 400px;
-  color: white;
-  margin-top: 30px;
+  max-width: 600px;
+  height: 350px;
+  position: relative;
+}
+.about-description h1 {
+  color: #d1d7e0;
   text-align: center;
-  font-size: 22px;
-  height: 200px;
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 45px;
+  position: relative;
 }
 .about-description span {
-  color: rgb(163, 158, 158);
-  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  color: #fff;
+}
+.homeContainer-content hr:first-child {
+  margin-top: 50px;
+  height: 3px;
+  background-color: #F39E4D;
+  border: 2px solid #F39E4D;
+  border-radius: 5px;
+  width: 65%;
+}
+.homeContainer-content hr {
+  width: 20%;
+  height: 3px;
+  background-color: #F39E4D;
+  border: 2px solid #F39E4D;
+  border-radius: 5px;
+}
+.contacts-home ul {
+  list-style-type: none;
+  margin-top: 2%;
+  text-align: center;
+  margin-right: 30px;
+}
+.contacts-home ul li {
+  padding: 10px;
+  display: inline-block;
+}
+.contacts-home .icon {
+  color: #fff;
+  font-size: 22px;
+}
+.contacts-home .icon:hover {
+  stroke: #F39E4D;
+  stroke-width: 15;
 }

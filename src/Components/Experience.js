@@ -1,11 +1,14 @@
 import React from 'react';
 import './JobComponent.css';
+import './GlobalStyles.css';
 
 function Experience() {
     return ( 
         <div id="experience" className="main">
             <h1 id="headerTitle">Experience</h1>
-                <div className="experienceContainer">
+             <hr className="heading-hr"></hr>
+   
+              <div className="experienceContainer">
                     <SubComponent
                         src="https://pbs.twimg.com/profile_images/1258154808134922242/sUXk1gdX_400x400.jpg"
                         jobTitle = "Senior Technical Student"

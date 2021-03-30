@@ -1,0 +1,66 @@
+  .header {
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: rgba(221, 221, 221, 0.92);
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 60px;
+  }
+  
+  .rt-container {
+    width: 500px;
+  }
+  
+  .rt-header li {
+    display: inline;
+    padding: 7px 12px;
+    border-radius: 36px;
+    line-height: 35px;
+  
+    cursor: pointer;
+  }
+  
+  .rt-header li.active,
+  .rt-header li:hover {
+    background: #4cb8c4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #4cb8c4,
+      #3cd3ad
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #4cb8c4,
+      #3cd3ad
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .tab-content {
+    height: 400px;
+    background: #fff;
+    border: 1px solid #dedeed;
+    margin: 12px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .tab-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
