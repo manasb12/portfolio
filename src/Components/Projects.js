@@ -13,6 +13,7 @@ function Projects() {
     return (
         <div id="projects" className="container">
             <h1 className="section-heading">Projects</h1>
+            <hr className="heading-hr"></hr>
             <div className="subContainer">
                 <ProjectCard
                     src={texteditorImage}

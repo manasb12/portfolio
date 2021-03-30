@@ -1,0 +1,13 @@
+.heading-hr {
+    height: 5px;
+    max-width: 50px;
+    background-color: #423E47;
+    display: block;
+    border: 2px solid #423E47;
+    border-radius: 5px;
+  }
+  .heading-hr-div {
+    border: 1px solid red;
+    width: 50%;
+    margin: auto;
+  }
