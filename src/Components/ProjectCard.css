@@ -5,14 +5,15 @@
   display: flex;
 }
 .card-container {
-  width: 350px;
-  height: 450px;
+  width: 380px;
+  height: 480px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #f4f8f7;
 }
 
 .card-image img {
@@ -22,32 +23,26 @@
 .card-description h1 {
   font-size: 18px;
   text-align: center;
-  color: #222;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: #423e47;
 }
 .card-description p {
   font-size: 14px;
   text-align: left;
-  color: #333;
+  color: #555;
   margin-left: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .card-description h3 {
   font-size: 16px;
-  color: #f44336;
+  color: #f39e4d;
   margin-left: 20px;
 }
 
 .section-heading {
   text-align: center;
-  color: #f44336;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: #423E47;
   padding-top: 50px;
+  font-size: 2.5rem;
   margin-top: 50px;
-  font-size: 36px;
 }
 @media (max-width: 800px) {
   .subContainer {
