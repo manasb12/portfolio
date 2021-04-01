@@ -1,23 +1,28 @@
-/*.aboutContainer {
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+.aboutContainer {
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
   width: 95%;
   margin-left: 2.5%;
-  margin-top: 50px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  margin-top: 10px;
 }
 .home-desc {
   width: 600px;
   padding: 10px;
   margin-top: 10px;
+  background-color: white;
   flex: 50%;
 }
 .home-skills {
   width: 600px;
   height: 500px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "arial";
   color: #222;
   padding: 10px;
   flex: 50%;
@@ -25,23 +30,26 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .section-header {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-family: "arial";
+  font-size: 22px;
   text-align: center;
-  color: #423e47;
+  color: #222;
 }
 
 .home-desc p {
   font-size: 18px;
-  color: #444;
+  color: #222;
   text-align: left;
   padding: 2px;
 }
 .home-desc span {
   color: #999;
+  font-weight: bold;
+}
+.resume-link {
+  text-decoration: none;
+  color: #f44336;
   font-weight: bold;
 }
 .resume-link:hover {
@@ -61,7 +69,6 @@
   margin: 0px;
   margin-left: 20px;
   font-size: 18px;
-  color: #444;
 }
 .skills {
   height: 20px;
@@ -92,130 +99,11 @@
 }
 .skillbar-main {
   margin-top: 15px;
-}*/
-.skills-container {
-  margin-top: 30px;
-  width: 50%;
-  margin: auto;
-}
-.skills-container hr {
-  margin-top: 50px;
-}
-.section-header {
-  text-align: center;
-  color: #423e47;
-  font-size: 2.5rem;
-  margin-top: 90px;
-}
-.frontEnd-skills,
-.backEnd-skills {
-  width: 100%;
-  margin: auto;
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.frontEnd-skills-list,
-.backEnd-skills-list {
-  width: 50%;
-}
-
-.frontEnd-skills-list h1, .backEnd-skills-list h1 {
-  font-size: 26px;
-  color: #423e47;
-  font-style: oblique;
-  text-align: center;
-}
-
-.frontEnd-skills-list ul,
-.backEnd-skills-list ul {
-  list-style-type: square;
-  font-size: 22px;
-  color: #212529;
-  line-height: 28px;
-}
-
-.frontEnd-skills-img {
-  background-image: url("../img/FrontEndSkillsCircle.png");
-  background-position: center center;
-  width: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.backEnd-skills-img {
-  background-image: url("../img/BackEndSkillsCircle.png");
-  width: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.frontEndList-Container, .backEndList-Container {
-  width: 65%;
-  margin: auto;
-}
-
-.other-skills {
-  width: 100%;
-  margin: auto;
-  margin-top: 50px;
-  background-color: #423e47;
-  height: auto;
-  border-radius: 20px;
-}
-.other-skills ul {
-  list-style-type: none;
-  margin-left: 10%;
-  font-size: 0;
-}
-.other-skills ul li {
-  display: inline-block;
-  color: #f7f7f7;
-  font-size: 20px;
-  padding: 10px;
-}
-
-.education-description {
-  width: 80%;
-  height: auto;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.education-description h1 {
-  text-align: center;
-  font-size: 26px;
-  color: #423e47;
-  font-style: oblique;
-}
-.education-description p {
-  text-align: center;
-  font-size: 18px;
-  color: #222;
-}
-
-.education-description ul {
-  list-style-type: circle;
-  color: #111;
-  line-height: 25px;
-  width: 50%;
-  margin: auto;
-  height: auto;
-  font-size: 17px;
 }
 
 @media (max-width: 800px) {
-  .skills-container .frontEnd-skills,
-  .backEnd-skills {
+  .home-desc,
+  .home-skills {
     flex: 100%;
-    flex-direction: column;
-  }
-  .frontEnd-skills-list,
-  .backEnd-skills-list {
-    width: 100%;
-  }
-  .education-description ul {
-    width: 100%;
   }
 }

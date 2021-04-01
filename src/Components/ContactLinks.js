@@ -1,14 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faFileAlt} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileAlt, faFilePdf} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import './ContactLinksStyle.css';
+import resume from './Manas_Bansal_Resume.pdf';
 
 const ContactLinks = () => {
     return (
-        <div>
+        <div className="contact-links-container">
         <ul>
             <li>
-                <a href="mailto:manasb@my.yorku.ca"><FontAwesomeIcon className="icon" icon={faEnvelope} size="2x"/></a>
+                <a href={resume} target="_blank"><FontAwesomeIcon className="icon" icon={faFilePdf} size="2x"/></a>
             </li>
             <li>
                 <a 

@@ -11,13 +11,12 @@ function App() {
         <div>
             <Navbar/>
             <Home/>
+            <About/>
             <Experience/>
             <Projects/>
-            <About/>
             <Footer/>
         </div>
     )
 }
 
-
-export default App;
+export default App; 

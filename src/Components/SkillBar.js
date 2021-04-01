@@ -12,4 +12,4 @@ function SkillBar(props) {
     )
 }
 
-export default SkillBar;
+export default SkillBar; 

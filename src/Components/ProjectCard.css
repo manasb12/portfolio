@@ -1,19 +1,19 @@
 .container {
-  width: 80%;
-  margin: auto;
+  width: 95%;
+  margin-left: 2.5%;
 }
 .subContainer {
   display: flex;
 }
 .card-container {
-  width: 305px;
-  height: auto;
+  width: 350px;
+  height: 450px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  background-color: #f3f7f7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-image img {
@@ -23,25 +23,27 @@
 .card-description h1 {
   font-size: 18px;
   text-align: center;
-  color: #423e47;
+  color: #222;
+  font-family: "arial";
 }
 .card-description p {
   font-size: 14px;
   text-align: left;
   color: #333;
   margin-left: 20px;
+  font-family: "arial";
 }
 .card-description h3 {
-  font-size: 16px;
-  color: #111;
+  font-size: 14px;
+  color: #333;
   margin-left: 20px;
 }
 
 .section-heading {
   text-align: center;
-  color: #423E47;
+  color: #222;
+  font-family: "arial";
   padding-top: 50px;
-  font-size: 2.5rem;
   margin-top: 50px;
 }
 @media (max-width: 800px) {
