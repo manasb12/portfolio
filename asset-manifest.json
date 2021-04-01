@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.40022e19.chunk.css",
-    "main.js": "/portfolio/static/js/main.ca3a1986.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ca3a1986.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
-    "static/js/2.4089f1f4.chunk.js": "/portfolio/static/js/2.4089f1f4.chunk.js",
-    "static/js/2.4089f1f4.chunk.js.map": "/portfolio/static/js/2.4089f1f4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1cc96e09.chunk.css",
+    "main.js": "/portfolio/static/js/main.580882a7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.580882a7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/js/2.9c63ae6d.chunk.js": "/portfolio/static/js/2.9c63ae6d.chunk.js",
+    "static/js/2.9c63ae6d.chunk.js.map": "/portfolio/static/js/2.9c63ae6d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.40022e19.chunk.css.map": "/portfolio/static/css/main.40022e19.chunk.css.map",
-    "static/js/2.4089f1f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4089f1f4.chunk.js.LICENSE.txt",
+    "static/css/main.1cc96e09.chunk.css.map": "/portfolio/static/css/main.1cc96e09.chunk.css.map",
+    "static/js/2.9c63ae6d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9c63ae6d.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/portfolio/static/media/FrontEndSkillsCircle.73a8f9b0.png",
     "static/media/GroceryGo.d0a663e9.PNG": "/portfolio/static/media/GroceryGo.d0a663e9.PNG",
     "static/media/Manas_Bansal_Resume.81423191.pdf": "/portfolio/static/media/Manas_Bansal_Resume.81423191.pdf",
     "static/media/MortCalc.b5ef3ec4.jpg": "/portfolio/static/media/MortCalc.b5ef3ec4.jpg",
-    "static/media/Home.css": "/portfolio/static/media/profile.22051972.jpg",
     "static/media/spaceAttackImage.fbaaf6e4.PNG": "/portfolio/static/media/spaceAttackImage.fbaaf6e4.PNG",
     "static/media/texteditor.1f727553.PNG": "/portfolio/static/media/texteditor.1f727553.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fed2963.js",
-    "static/js/2.4089f1f4.chunk.js",
-    "static/css/main.40022e19.chunk.css",
-    "static/js/main.ca3a1986.chunk.js"
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/2.9c63ae6d.chunk.js",
+    "static/css/main.1cc96e09.chunk.css",
+    "static/js/main.580882a7.chunk.js"
   ]
 }
