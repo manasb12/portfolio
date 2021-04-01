@@ -1,19 +1,19 @@
 .container {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 .subContainer {
   display: flex;
 }
 .card-container {
-  width: 380px;
-  height: 480px;
+  width: 305px;
+  height: auto;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #f4f8f7;
+  background-color: #f3f7f7;
 }
 
 .card-image img {
@@ -28,12 +28,12 @@
 .card-description p {
   font-size: 14px;
   text-align: left;
-  color: #555;
+  color: #333;
   margin-left: 20px;
 }
 .card-description h3 {
   font-size: 16px;
-  color: #f39e4d;
+  color: #111;
   margin-left: 20px;
 }
 

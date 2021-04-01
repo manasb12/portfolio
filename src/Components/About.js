@@ -19,13 +19,15 @@ function About() {
                     <div className="frontEnd-skills">
                         <div className="frontEnd-skills-list">
                             <h1>FRONT-END SKILLS</h1>
-                            <ul className="frontEndList">
-                                <li>ReactJS</li>
-                                <li>HTML / CSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>Responsive Design</li>
-                            </ul>
+                            <div className="frontEndList-Container">
+                                <ul className="frontEndList">
+                                    <li>ReactJS</li>
+                                    <li>HTML / CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className="frontEnd-skills-img"></div>
                     </div>
@@ -34,14 +36,43 @@ function About() {
                         <div className="backEnd-skills-img"></div>
                         <div className="backEnd-skills-list">
                             <h1>BACK-END SKILLS</h1>
-                            <ul className="backEndList">
-                                <li>Java</li>
-                                <li>Python</li>
-                                <li>SQL</li>
-                                <li>Git</li>
-                                <li>Kotlin</li>
+                            <div className="backEndList-Container">
+                                <ul className="backEndList">
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                    <li>SQL</li>
+                                    <li>Git</li>
+                                    <li>Kotlin</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="other-skills">
+                        <ul>
+                            <li>Microsoft Suite</li>
+                            <li>Eclipse</li>
+                            <li>Visual Studio Code</li>
+                            <li>Android Studio</li>
+                            <li>pip</li>
+                            <li>npm</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Object Oriented Programming</li>
+                        </ul>
+                    </div>
+                    <div className="education-description">
+                        <h1>Completed Courses</h1>
+                        <div className="courses-container"> 
+                            <ul>
+                                <li>Advanced Object Oriented Programming</li>
+                                <li>Introduction to Mobile Computing</li>
+                                <li>Database Management Systems</li>
+                                <li>Operating Systems</li>
+                                <li>Fundamentals of Data Structures</li>
+                                <li>Software Tools</li>
+                                <li>Theory of Computation</li>
                             </ul>
                         </div>
+                        <p>Overall Cumulative GPA: <span>3.0 / 4.0</span></p>
                     </div>
                 </div>
             </div>
@@ -54,7 +85,7 @@ function About() {
                 <SkillBar skill="React"/>
                 <SkillBar skill="C"/>
     </div>*/}
-        </div>
+        </div >
     )
 }
 

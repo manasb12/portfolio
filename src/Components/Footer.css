@@ -1,20 +1,21 @@
 .footer-container {
-  background-color: #111;
+  background-color: #423e47;
   color: whitesmoke;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-top: 50px;
   text-align: center;
   height: 400px;
+  border-top: 3px solid #af6c57;
 }
 .footer-container #container-title {
-  color: #f44336;
+  color: #fff;
   padding-top: 30px;
   font-size: 36px;
 }
 .footer-container ul {
   list-style-type: none;
-  margin-top: 2%;
+  margin-top: 1.5%;
   text-align: center;
   margin-right: 30px;
 }
@@ -23,15 +24,26 @@
   display: inline-block;
 }
 .icon {
-  color: #999;
+  color: #fff;
+}
+.resume-title {
+  color: #af6c57;
+}
+.resume {
+  stroke: #af6c57;
+  stroke-width: 15;
 }
 .icon:hover {
-  stroke: #f44336;
+  stroke: #af6c57;
   stroke-width: 15;
   cursor: pointer;
 }
 .ea-footer {
-  font-size: 22px;
-  padding-top: 20px;
+  font-size: 18px;
+  padding-top: 10px;
   color: #999;
+}
+.react-icon-footer {
+  color: cyan;
+  margin-left: 8px;
 }

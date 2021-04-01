@@ -95,7 +95,7 @@
 }*/
 .skills-container {
   margin-top: 30px;
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 .skills-container hr {
@@ -109,54 +109,100 @@
 }
 .frontEnd-skills,
 .backEnd-skills {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 30px;
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 .frontEnd-skills-list,
 .backEnd-skills-list {
-  width: 45%;
-  margin: auto;
+  width: 50%;
 }
 
-.frontEnd-skills-list h1 {
+.frontEnd-skills-list h1, .backEnd-skills-list h1 {
   font-size: 26px;
   color: #423e47;
+  font-style: oblique;
   text-align: center;
 }
-.backEnd-skills-list h1 {
-  font-size: 26px;
-  color: #423e47;
-  text-align: center;
-}
+
 .frontEnd-skills-list ul,
 .backEnd-skills-list ul {
   list-style-type: square;
   font-size: 22px;
   color: #212529;
   line-height: 28px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
 }
 
 .frontEnd-skills-img {
   background-image: url("../img/FrontEndSkillsCircle.png");
-  width: 45%;
+  background-position: center center;
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.backEnd-skills-img {
+  background-image: url("../img/BackEndSkillsCircle.png");
+  width: 50%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.backEnd-skills-img {
-  background-image: url("../img/BackEndSkillsCircle.png");
-  width: 45%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+.frontEndList-Container, .backEndList-Container {
+  width: 65%;
+  margin: auto;
+}
+
+.other-skills {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #423e47;
+  height: auto;
+  border-radius: 20px;
+}
+.other-skills ul {
+  list-style-type: none;
+  margin-left: 10%;
+  font-size: 0;
+}
+.other-skills ul li {
+  display: inline-block;
+  color: #f7f7f7;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.education-description {
+  width: 80%;
+  height: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.education-description h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #423e47;
+  font-style: oblique;
+}
+.education-description p {
+  text-align: center;
+  font-size: 18px;
+  color: #222;
+}
+
+.education-description ul {
+  list-style-type: circle;
+  color: #111;
+  line-height: 25px;
+  width: 50%;
+  margin: auto;
+  height: auto;
+  font-size: 17px;
 }
 
 @media (max-width: 800px) {
@@ -167,6 +213,9 @@
   }
   .frontEnd-skills-list,
   .backEnd-skills-list {
+    width: 100%;
+  }
+  .education-description ul {
     width: 100%;
   }
 }

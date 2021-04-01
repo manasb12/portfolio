@@ -8,11 +8,7 @@ body {
   background-color: #423e47;
   justify-content: center;
   width: 100%;
-<<<<<<< Updated upstream
-  min-height: 750px;
-=======
-  min-height: 90vh;
->>>>>>> Stashed changes
+  height: 750px;
   display: flex;
 }
 .myName {
@@ -44,26 +40,16 @@ body {
 .homeContainer-content hr:first-child {
   margin-top: 100px;
   height: 3px;
-<<<<<<< Updated upstream
   background-color: #af6c57;
   border: 2px solid #af6c57;
-=======
-  background-color: #f39e4d;
-  border: 2px solid #f39e4d;
->>>>>>> Stashed changes
   border-radius: 5px;
   width: 65%;
 }
 .homeContainer-content hr {
   width: 20%;
   height: 3px;
-<<<<<<< Updated upstream
   background-color: #af6c57;
   border: 2px solid #af6c57;
-=======
-  background-color: #f39e4d;
-  border: 2px solid #f39e4d;
->>>>>>> Stashed changes
   border-radius: 5px;
 }
 .contacts-home ul {
@@ -78,13 +64,10 @@ body {
 }
 .contacts-home .icon {
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
 }
 .contacts-home .icon:hover {
-<<<<<<< Updated upstream
   stroke: #af6c57;
-=======
   stroke: #f39e4d;
->>>>>>> Stashed changes
   stroke-width: 15;
 }
