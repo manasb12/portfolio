@@ -8,24 +8,24 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F39E4D;
+  background-color: #af6c57;
 }
 
 .navbar-container ul li {
   float: left;
-  font-family: "Titillium Web",sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 18px;
 }
 
 .navbar-container a {
   display: block;
-  color: #F4F8F7;
+  color: #f4f8f7;
   text-align: center;
   padding: 14px 12px;
   text-decoration: none;
 }
 
 .navbar-container li a:hover {
-  background-color: #fff;
-  color: #F39E4D;
+  background-color: #f4f8f7;
+  color: #af6c57;
 }

@@ -27,26 +27,19 @@ function About() {
                                 <li>Responsive Design</li>
                             </ul>
                         </div>
-                        <div className="frontEnd-skills-img">
-                            <img src={react}/>
-                            <img src={html}/>
-                            <img src={css}/>
-                            <img src={javascript}/>
-                        </div>
+                        <div className="frontEnd-skills-img"></div>
                     </div>
                     <hr></hr>
                     <div className="backEnd-skills">
-                        <div className="backEnd-skills-img">
-                            <img src={java}/>
-                            <img src={python}/>
-                            <img src={sql}/>
-                        </div>
+                        <div className="backEnd-skills-img"></div>
                         <div className="backEnd-skills-list">
                             <h1>BACK-END SKILLS</h1>
                             <ul className="backEndList">
                                 <li>Java</li>
                                 <li>Python</li>
                                 <li>SQL</li>
+                                <li>Git</li>
+                                <li>Kotlin</li>
                             </ul>
                         </div>
                     </div>

@@ -1,14 +1,13 @@
 body {
   background-color: #d1d7e0;
-  font-family: "Titillium Web",sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 .main #headerTitle {
-  color: #423E47;
+  color: #423e47;
   font-size: 2.5rem;
 }
 .experience-main-container {
   margin-top: 30px;
-  border: 1px solid red;
 }
 
 .experience-subContainer {
@@ -18,7 +17,6 @@ body {
 .experienceContainer {
   padding: 10px;
   width: 50%;
-  border: 1px solid green;
 }
 .experienceContainer img {
   width: 40px;
@@ -31,7 +29,7 @@ body {
   margin-left: 120px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #423E47;
+  color: #423e47;
   font-size: 26px;
 }
 .experienceContainer .jobTitle {
@@ -68,4 +66,3 @@ body {
     width: 100%;
   }
 }
-
