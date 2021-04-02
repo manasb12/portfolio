@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.452e6a71.chunk.css",
-    "main.js": "/portfolio/static/js/main.b416a095.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b416a095.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.23213eef.chunk.css",
+    "main.js": "/portfolio/static/js/main.e3a318cf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e3a318cf.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.8e20bd64.chunk.js": "/portfolio/static/js/2.8e20bd64.chunk.js",
     "static/js/2.8e20bd64.chunk.js.map": "/portfolio/static/js/2.8e20bd64.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.452e6a71.chunk.css.map": "/portfolio/static/css/main.452e6a71.chunk.css.map",
+    "static/css/main.23213eef.chunk.css.map": "/portfolio/static/css/main.23213eef.chunk.css.map",
     "static/js/2.8e20bd64.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8e20bd64.chunk.js.LICENSE.txt",
     "static/media/Manas_Bansal_Resume.81423191.pdf": "/portfolio/static/media/Manas_Bansal_Resume.81423191.pdf",
     "static/media/MortCalc.b5ef3ec4.jpg": "/portfolio/static/media/MortCalc.b5ef3ec4.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.8e20bd64.chunk.js",
-    "static/css/main.452e6a71.chunk.css",
-    "static/js/main.b416a095.chunk.js"
+    "static/css/main.23213eef.chunk.css",
+    "static/js/main.e3a318cf.chunk.js"
   ]
 }
